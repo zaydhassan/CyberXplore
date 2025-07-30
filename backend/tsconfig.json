@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",                // Modern JS runtime
+    "module": "ESNext",                // ES Modules for import/export support
+    "moduleResolution": "node",        // Node-style module loading
+    "outDir": "dist",                  // Output folder for compiled JS (if you build)
+    "rootDir": "src",                  // Your source code lives here
+    "esModuleInterop": true,           // Allow default imports from commonjs modules
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,                    // Strict type checking
+    "skipLibCheck": true,              // Ignore type checking of dependencies
+    "resolveJsonModule": true,         // Allow importing .json files
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": false             // You can set to true for stricter checking
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}
